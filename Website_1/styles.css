@@ -227,3 +227,21 @@ section{
     background: #fff;
     color: rgb(0,0,0);
 }
+
+/* ABOUT SECTION */
+#about{
+    position: relative;
+}
+
+.about-containers{
+    gap: 2rem;
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
