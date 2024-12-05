@@ -15,12 +15,24 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 14px;
-    gap: 14px;
+    padding: 1rem;
+    gap: 1rem;
 }
 
 .nav-container{
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 1rem;
+}
+
+.img-button{
+    border: none;
+    background: transparent;
+}
+
+.img-button img{
+    width: 35px;
+    overflow: hidden;
+    border-radius: 100%;
+    padding: 1rem;
 }
