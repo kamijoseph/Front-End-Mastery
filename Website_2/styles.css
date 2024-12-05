@@ -35,6 +35,10 @@ header{
 .icon-link{
     font-size: 1rem;
     color: inherit;
+    background: lime;
+    width: 24px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
 }
 
 .text-link:hover{
