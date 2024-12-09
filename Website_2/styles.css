@@ -125,3 +125,31 @@ main{
     opacity: 0.6;
     cursor: pointer;
 }
+
+.button-grid{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.button-grid button{
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    background: rgb(247, 247, 247);
+    border-radius: 0.25rem;
+    transition: 0.5s;
+}
+
+.button-grid button:hover{
+    border: 1px solid slategray;
+}
+
+.language-link{
+    color: royalblue;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.language-link:hover{
+    text-decoration: underline;
+}
