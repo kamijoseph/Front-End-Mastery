@@ -148,8 +148,13 @@ main{
     color: royalblue;
     text-decoration: none;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .language-link:hover{
     text-decoration: underline;
+}
+
+.language-text{
+    font-size: .7rem;
 }
