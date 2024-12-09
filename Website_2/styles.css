@@ -161,8 +161,22 @@ main{
 
 footer{
     background: rgb(244, 244, 244);
+    font-size: .8rem;
 }
 
-footer div{
+footer > div{
     padding: 1rem;
+}
+
+.footer-grid{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.footer-links{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
