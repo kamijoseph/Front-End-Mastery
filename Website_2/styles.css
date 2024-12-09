@@ -158,3 +158,11 @@ main{
 .language-text{
     font-size: .7rem;
 }
+
+footer{
+    background: rgb(244, 244, 244);
+}
+
+footer div{
+    padding: 1rem;
+}
