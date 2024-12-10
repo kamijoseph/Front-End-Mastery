@@ -61,6 +61,10 @@ header{
     text-decoration: underline;
 }
 
+.nav-container-second .text-link{
+    display: none;
+}
+
 .img-button{
     border: none;
     background: transparent;
@@ -161,7 +165,7 @@ main{
 
 footer{
     background: rgb(244, 244, 244);
-    font-size: .8rem;
+    font-size: .7rem;
 }
 
 footer > div{
@@ -170,13 +174,25 @@ footer > div{
 
 .footer-grid{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .footer-links{
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+@media (min-width:640px){
+    footer{
+        font-size: .8rem;
+    }
+    .footer-grid{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
 }
