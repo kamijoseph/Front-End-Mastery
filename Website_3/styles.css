@@ -15,8 +15,26 @@ body{
     padding: 1rem;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 header h1,
 header h4,
 .lightText{
     color: var(--color-highlight)
+}
+
+header a{
+    text-decoration: none;
+}
+
+header h1{
+    font-weight: 600;
+}
+
+header h4{
+    font-weight: 400;
 }
