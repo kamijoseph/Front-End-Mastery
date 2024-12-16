@@ -22,7 +22,7 @@ body{
     position: fixed;
     background: #172554;
     inset: 0;
-    opacity: 0.35;
+    opacity: 0.15;
 }
 
 header{
@@ -54,5 +54,23 @@ header h1{
 }
 
 header h4{
+    font-weight: 400;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section h2{
+    text-transform: uppercase;
+    font-size: 1rem;
     font-weight: 400;
 }
