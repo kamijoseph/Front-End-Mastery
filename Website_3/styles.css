@@ -20,7 +20,6 @@ body{
 
 p,
 h2{
-    font-size: 0.9rem;
     line-height: 1.5rem;
 }
 
@@ -89,7 +88,7 @@ section{
 section h2{
     text-transform: uppercase;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .about-contents{
@@ -100,10 +99,16 @@ section h2{
 
 .anchor-text{
     color: var(--color-highlight);
-    transition: .5s;
+    transition-duration: 350ms;
     text-decoration: none;
 }
 
 .anchor-text:hover{
     color: var(--root-accent);
+}
+
+.experience-contents{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1rem;
 }
