@@ -165,3 +165,7 @@ section h2,
 .tag p{
     font-size: .8rem;
 }
+
+.projects-container a{
+    text-decoration: none;
+}
