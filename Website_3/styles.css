@@ -233,5 +233,5 @@ section h2,
 }
 
 .project-archive-link:hover::after{
-    background: var(--color-highlight);
+    background: var(--root-accent);
 }
