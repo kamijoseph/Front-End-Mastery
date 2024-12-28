@@ -110,6 +110,7 @@ section h2,
     position: absolute;
     inset: 0;
     background: #101a31;
+    opacity: 0.8;
 }
 
 .about-contents{
