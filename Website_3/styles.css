@@ -116,7 +116,8 @@ section h2,
     text-decoration: none;
 }
 
-.experience-contents{
+.experience-contents,
+.projects-contents{
     display: flex;
     flex-direction: column;
     gap: 4rem;
@@ -166,6 +167,6 @@ section h2,
     font-size: .8rem;
 }
 
-.projects-container a{
+.projects-contents a{
     text-decoration: none;
 }
