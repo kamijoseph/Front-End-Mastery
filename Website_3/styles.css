@@ -204,3 +204,10 @@ section h2,
     font-size: .8rem;
     color: var(--color-highlight);
 }
+
+.project-archive-link{
+    position: relative;
+    color: var(--color-highlight);
+    text-decoration: none;
+    transition-duration: 200ms;
+}
