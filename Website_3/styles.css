@@ -282,4 +282,9 @@ footer p{
     place-items: center;
     border-radius: 100%;
     overflow: hidden;
+    transition-duration: 200ms;
+}
+
+.scroll-to-top:hover{
+    opacity: .6;
 }
