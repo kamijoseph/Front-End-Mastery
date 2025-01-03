@@ -58,6 +58,10 @@ nav a{
     color: var(--color-highlight);
 }
 
+nav {
+    display: none;
+}
+
 header,
 main,
 footer{
@@ -305,3 +309,8 @@ footer p{
 .scroll-to-top:hover{
     opacity: .6;
 }
+
+/* Media Queries */
+@media (min-width: 640px){}
+
+@media (min-width: 1024px){}
