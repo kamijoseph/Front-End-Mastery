@@ -261,3 +261,18 @@ section h2,
 .project-archive-link:hover::after{
     background: var(--root-accent);
 }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    font-size: .9rem;
+}
+
+.scroll-to-top{
+    text-decoration: none;
+    color: var(--color-highlight);
+    background: rgba(45, 212, 191, .1);
+}
