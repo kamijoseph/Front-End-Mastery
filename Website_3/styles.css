@@ -264,6 +264,8 @@ section h2,
 
 footer{
     display: flex;
+    flex-direction: column;
+    gap: 2rem;
     justify-content: space-between;
     align-items: flex-start;
 }
