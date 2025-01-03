@@ -149,12 +149,19 @@ section h2,
 
 .social-links{
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
+
 .social-links a{
     text-decoration: none;
+    color: inherit;
+    font-size: 1.2rem;
+    transition-duration: 200ms;
+}
+
+.social-links a:hover{
     color: var(--color-highlight);
-    font-size: larger;
 }
 
 .experience-contents a {
@@ -311,6 +318,18 @@ footer p{
 }
 
 /* Media Queries */
-@media (min-width: 640px){}
+@media (min-width: 640px){
+    .project-card,
+    .experience-card{
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    .card-column{
+        grid-column: span 3 / span 3;
+    }
+}
 
-@media (min-width: 1024px){}
+@media (min-width: 1024px){
+    body{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
