@@ -210,6 +210,11 @@ section h2,
     font-size: 1rem;
 }
 
+.anchor-icon{
+    color: var(--color-highlight);
+    padding-left: .5rem;
+}
+
 .tag-container{
     display: flex;
     flex-wrap: wrap;
@@ -339,7 +344,7 @@ footer p{
     .header{
         max-width: unset;
     }
-    
+
     header h1 {
         font-size: 3rem;
     }
